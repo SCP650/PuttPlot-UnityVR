@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40789df360cf18d4db8041e9ce8cb7aa, type: 3}
+  m_Name: TestFrame2
+  m_EditorClassIdentifier: 
+  visible_choices:
+  - {fileID: 11400000, guid: 92bc3805043bdb2408a106b39df4c9fc, type: 2}
+  - {fileID: 11400000, guid: 319833512f5394e4da7a3d3db1784bbf, type: 2}
+  lines:
+  - line: frame 2 line 1
+    animated: 0
+    bg: {fileID: 21300000, guid: 9b6841b991d643841958e10c72a07590, type: 3}
+    animationTrigger: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
