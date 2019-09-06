@@ -75,6 +75,8 @@
     <Compile Include="Assets\Code\DialogueSystem\DialogueChoice.cs" />
     <Compile Include="Assets\Code\DialogueSystem\DialogueController.cs" />
     <Compile Include="Assets\Code\DialogueSystem\Frame.cs" />
+    <Compile Include="Assets\Scripts\Ball.cs" />
+    <Compile Include="Assets\Scripts\SpawnBall.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />

@@ -41,10 +41,8 @@ public class Frame : ScriptableObject
                 Debug.LogError($"{this} dialogue choices are null");
 
             if (visible_choices.Count <= index)
-            {
                 Debug.LogError($"Frame only has {visible_choices.Count} dialogue options, index: {index}");
-                return null;
-            }
+                
             return visible_choices[index];
         }
     }
