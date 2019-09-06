@@ -21,6 +21,7 @@ public class Ball : MonoBehaviour
         if(applyForce)
         {
             rb.AddForceAtPosition(force * thrust, position);
+            applyForce = false;
         }
     }
 
