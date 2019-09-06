@@ -35,6 +35,7 @@ sysinfo.txt
 #Cache and metadata
 # =================
 Library
+metadata
 Temp
 *.backup
 *.log
