@@ -15,10 +15,14 @@ MonoBehaviour:
   visible_choices:
   - {fileID: 11400000, guid: 92bc3805043bdb2408a106b39df4c9fc, type: 2}
   - {fileID: 11400000, guid: 319833512f5394e4da7a3d3db1784bbf, type: 2}
+  - {fileID: 11400000, guid: 319833512f5394e4da7a3d3db1784bbf, type: 2}
+  - {fileID: 11400000, guid: c385bb2ed013ef64fa824ca2c71f0de1, type: 2}
   lines:
-  - line: frame 2 line 1
+  - line: 'You got in the top three holes
+
+'
     animated: 0
-    bg: {fileID: 21300000, guid: 9b6841b991d643841958e10c72a07590, type: 3}
+    bg: {fileID: 21300000, guid: a2bd6f767f8ac014cae5507dea7f61a3, type: 3}
     animationTrigger: 
   onEnter:
     m_PersistentCalls:

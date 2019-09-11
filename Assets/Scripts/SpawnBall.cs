@@ -26,13 +26,13 @@ public class SpawnBall : MonoBehaviour
     void Update()
     {
         SpawnABall();
+        
     }
 
     void SpawnABall()
     {
         if(Input.GetKeyDown("space"))
         {
-            golfBalls[golfBallIndex].GetComponent<Ball>().applyForce = false;
             golfBalls[golfBallIndex].GetComponent<Rigidbody>().velocity = Vector3.zero;
             golfBalls[golfBallIndex].GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
             golfBalls[golfBallIndex].transform.position = ballSpawnPosition;

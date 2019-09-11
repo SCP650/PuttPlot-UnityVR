@@ -75,7 +75,11 @@
     <Compile Include="Assets\Code\DialogueSystem\DialogueChoice.cs" />
     <Compile Include="Assets\Code\DialogueSystem\DialogueController.cs" />
     <Compile Include="Assets\Code\DialogueSystem\Frame.cs" />
+    <Compile Include="Assets\Code\DialogueSystem\Objects\test1.cs" />
+    <Compile Include="Assets\display_intref.cs" />
+    <Compile Include="Assets\IntEventSplitter.cs" />
     <Compile Include="Assets\Scripts\Ball.cs" />
+    <Compile Include="Assets\Scripts\HitHole.cs" />
     <Compile Include="Assets\Scripts\SpawnBall.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />

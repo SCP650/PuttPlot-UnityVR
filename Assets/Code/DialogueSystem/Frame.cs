@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.PackageManager;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -15,6 +14,10 @@ public struct line_of_dialogue
     [SerializeField] public Sprite bg;
 
     [SerializeField] public string animationTrigger;
+
+    [SerializeField] public int lowestScoreAllowed;
+
+    [SerializeField] public int highestScoreAllowed;//TODO incorporate
 }
 
 [CreateAssetMenu(menuName = "Dialogue/Frame")]

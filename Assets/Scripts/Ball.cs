@@ -7,21 +7,27 @@ public class Ball : MonoBehaviour
     [SerializeField]
     private float thrust;
     private Rigidbody rb;
-    public bool applyForce;
-    private Vector3 force, position;
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        applyForce = false;
+        StartCoroutine(record());
     }
 
-    private void FixedUpdate()
+    IEnumerator record()
     {
-        if(applyForce)
+        while (true)
         {
-            rb.AddForceAtPosition(force * thrust, position);
-            applyForce = false;
+            yield return null;
+            if (Input.GetKeyDown(KeyCode.Alpha1))
+            {
+                thrust *= 2;
+            }
+
+            if (Input.GetKeyDown(KeyCode.Alpha0))
+            {
+                thrust /= 2;
+            }
         }
     }
 
@@ -29,10 +35,8 @@ public class Ball : MonoBehaviour
     {
         if(other.collider.gameObject.tag == "Golf Club")
         {
-            applyForce = true;
             ContactPoint contact = other.contacts[0];
-            force = other.contacts[0].normal;
-            position = contact.point;
+            rb.AddForceAtPosition(other.contacts[0].normal * thrust,contact.point,ForceMode.Impulse);
         }    
     }
 }

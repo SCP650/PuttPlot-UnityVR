@@ -22,10 +22,16 @@
             <e p="DialogueChoice.cs" t="Include" />
             <e p="DialogueController.cs" t="Include" />
             <e p="Frame.cs" t="Include" />
+            <e p="Objects" t="Include">
+              <e p="test1.cs" t="Include" />
+            </e>
           </e>
         </e>
+        <e p="display_intref.cs" t="Include" />
+        <e p="IntEventSplitter.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Ball.cs" t="Include" />
+          <e p="HitHole.cs" t="Include" />
           <e p="SpawnBall.cs" t="Include" />
         </e>
         <e p="SteamVR" t="Include">

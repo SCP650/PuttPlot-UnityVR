@@ -16,18 +16,15 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 19ad26d210325d342bdfc36944e941ac, type: 2}
   - {fileID: 11400000, guid: 61db6cd9e54b1ba4bbc5571826675b4f, type: 2}
   - {fileID: 11400000, guid: bd86aa65d1047fc4885163712eec928d, type: 2}
+  - {fileID: 11400000, guid: 92bc3805043bdb2408a106b39df4c9fc, type: 2}
   lines:
   - line: frame 1 line 1
     animated: 0
     bg: {fileID: 21300000, guid: 9b6841b991d643841958e10c72a07590, type: 3}
     animationTrigger: 
-  - line: frame 1 line 2
+  - line: "\u201CHello player. Nice to meet you.\u201D\r\n"
     animated: 0
     bg: {fileID: 21300000, guid: e521f18a60b167343ab4bbdc9081b54e, type: 3}
-    animationTrigger: 
-  - line: frame 1 line 3
-    animated: 0
-    bg: {fileID: 21300000, guid: 1c26ef787e224ba4fbc3bdc22098bde9, type: 3}
     animationTrigger: 
   onEnter:
     m_PersistentCalls:

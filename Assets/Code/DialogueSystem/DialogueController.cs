@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
@@ -18,7 +19,7 @@ public class DialogueController : MonoBehaviour
 
     [SerializeField] private Animator characterAnimator;
 
-    [FormerlySerializedAs("dailogueChoices")] [SerializeField] private GridLayoutGroup dialogueChoices;
+    [SerializeField] private GridLayoutGroup dialogueChoices;
 
     [SerializeField] private TMPro.TMP_Text dialogueChoicePrefab;
 
@@ -27,7 +28,6 @@ public class DialogueController : MonoBehaviour
     void Start()
     {
         currentFrame = startingFrame;
-        beginListening();
         StartCoroutine(ReadDialogue());
     }
 
@@ -55,11 +55,21 @@ public class DialogueController : MonoBehaviour
         beginListening();
     }
 
+    int foo(string bar)
+    {
+        bar = "3";
+        
+        return 0;
+    }
+    
+    
     private void beginListening()
     {
+        
         selectDialogue.AddListenerOneTime(id =>
         {
             currentFrame = currentFrame[id].destination;
+            Score.val += currentFrame[id].deltaScore;
             StartCoroutine(ReadDialogue());
         });
     }

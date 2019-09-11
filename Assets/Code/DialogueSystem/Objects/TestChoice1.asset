@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: TestChoice1
   m_EditorClassIdentifier: 
   destination: {fileID: 11400000, guid: 3d92f296c965d8f47946084ae6a430b1, type: 2}
-  text: choice1
-  deltaScore: 0
+  text: "\u201CMy dream job? Easy, a Ninja Pirate Zombie!\u201D"
+  deltaScore: -3

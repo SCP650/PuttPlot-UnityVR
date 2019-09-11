@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.Events;
 using Valve.VR;
@@ -34,8 +33,6 @@ public class EventObject<T,TEventType> : ScriptableObject where TEventType : Uni
             f(t);
             Event.RemoveListener(temp);
         };
-        Debug.Log($"temp = {temp}");
-        Debug.Log($"Event = {Event}");
         Event.AddListener(temp);
     }
     
