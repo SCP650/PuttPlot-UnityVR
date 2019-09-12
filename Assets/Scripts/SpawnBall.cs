@@ -26,7 +26,6 @@ public class SpawnBall : MonoBehaviour
     void Update()
     {
         SpawnABall();
-        
     }
 
     void SpawnABall()
@@ -53,5 +52,8 @@ public class SpawnBall : MonoBehaviour
             golfBalls[i].transform.parent = this.gameObject.transform;
             golfBalls[i].SetActive(false);
         }
+
+        golfBalls[0].SetActive(true);
+        golfBallIndex++;
     }
 }

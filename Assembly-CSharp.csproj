@@ -79,6 +79,7 @@
     <Compile Include="Assets\display_intref.cs" />
     <Compile Include="Assets\IntEventSplitter.cs" />
     <Compile Include="Assets\Scripts\Ball.cs" />
+    <Compile Include="Assets\Scripts\BatVelocity.cs" />
     <Compile Include="Assets\Scripts\HitHole.cs" />
     <Compile Include="Assets\Scripts\SpawnBall.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />

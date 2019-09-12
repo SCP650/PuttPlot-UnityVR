@@ -1,34 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Ball : MonoBehaviour
 {
     [SerializeField]
     private float thrust;
+
+    [SerializeField]
+    private IntEvent checkBallHit;
+
     private Rigidbody rb;
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        StartCoroutine(record());
-    }
-
-    IEnumerator record()
-    {
-        while (true)
-        {
-            yield return null;
-            if (Input.GetKeyDown(KeyCode.Alpha1))
-            {
-                thrust *= 2;
-            }
-
-            if (Input.GetKeyDown(KeyCode.Alpha0))
-            {
-                thrust /= 2;
-            }
-        }
     }
 
     private void OnCollisionEnter(Collision other)
@@ -36,7 +23,7 @@ public class Ball : MonoBehaviour
         if(other.collider.gameObject.tag == "Golf Club")
         {
             ContactPoint contact = other.contacts[0];
-            rb.AddForceAtPosition(other.contacts[0].normal * thrust,contact.point,ForceMode.Impulse);
-        }    
+            rb.velocity = other.collider.gameObject.transform.GetChild(0).GetComponent<BatVelocity>().Velocity * thrust;
+        }
     }
 }

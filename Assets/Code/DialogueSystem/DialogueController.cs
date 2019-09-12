@@ -23,6 +23,8 @@ public class DialogueController : MonoBehaviour
 
     [SerializeField] private TMPro.TMP_Text dialogueChoicePrefab;
 
+    [SerializeField] private float textSpeed = 10;
+
     private Frame currentFrame;
     
     void Start()
@@ -33,6 +35,7 @@ public class DialogueController : MonoBehaviour
 
     IEnumerator ReadDialogue()
     {
+        string temp_string;
         foreach (Transform transform in dialogueChoices.transform)
         {
             Destroy(transform.gameObject);
@@ -40,12 +43,18 @@ public class DialogueController : MonoBehaviour
         yield return null;
         foreach (line_of_dialogue line in currentFrame.lines)
         {
-            mainDialogue.text = line.line;
             background.sprite = line.bg;
             if(characterAnimator != null)    
                 characterAnimator.SetTrigger(line.animationTrigger);
+            temp_string = line.line;
+            mainDialogue.text = "";
+            while (temp_string.Length > 0)
+            {
+                mainDialogue.text += temp_string[0];
+                temp_string = temp_string.Remove(0,1);
+                yield return  new WaitForSeconds(1f / textSpeed);
+            }
             
-            yield return new WaitForSeconds(line.line.Length * .2f);
         }
 
         foreach (DialogueChoice choice in currentFrame.visible_choices)

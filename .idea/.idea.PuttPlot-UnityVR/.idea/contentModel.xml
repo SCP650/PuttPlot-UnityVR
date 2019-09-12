@@ -31,6 +31,7 @@
         <e p="IntEventSplitter.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Ball.cs" t="Include" />
+          <e p="BatVelocity.cs" t="Include" />
           <e p="HitHole.cs" t="Include" />
           <e p="SpawnBall.cs" t="Include" />
         </e>
