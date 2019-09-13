@@ -27,19 +27,24 @@ public class transitions : MonoBehaviour
             pi.Item2.transform.position = Vector3.up * -150;
             pi.Item1.AddListener(_ =>
             {
+                Debug.Log("event fired");
                 StartCoroutine(goDown(currentBoard,pi.Item2));
             });
         }
+        currentBoard.transform.localPosition = Vector3.zero;
     }
 
     IEnumerator goDown(GameObject down, GameObject up)
     {
-        while (down.transform.position.y > -150 && up.transform.position.y < 0)
+        if (down == up) yield break;
+        while (down.transform.position.y > -30f)
         {
-            down.transform.position -= Vector3.up * 4 * Time.deltaTime / (down.transform.position.y + 150f);
-            up.transform.position = Vector3.up * (down.transform.position.y + 150f);
+            down.transform.localPosition -= Vector3.up * Time.deltaTime * (15f + Mathf.Abs(up.transform.localPosition.y - 15));
+            up.transform.localPosition = Vector3.up * (down.transform.localPosition.y + 30f);
             yield return null;
         }
+
+        up.transform.localPosition = Vector3.zero;
     }
 
 }
