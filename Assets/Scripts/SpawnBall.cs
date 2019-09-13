@@ -21,27 +21,46 @@ public class SpawnBall : MonoBehaviour
         ballSpawnPosition = golfBallPrefab.transform.position;
 
         InstantiateGolfBalls();
+        StartCoroutine(spawner());
     }
 
-    void Update()
+    IEnumerator spawner()
     {
-        SpawnABall();
-    }
-
-    void SpawnABall()
-    {
-        if(Input.GetKeyDown("space"))
+        float dur = 0f;
+        while(true)
         {
-            golfBalls[golfBallIndex].GetComponent<Rigidbody>().velocity = Vector3.zero;
-            golfBalls[golfBallIndex].GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
-            golfBalls[golfBallIndex].transform.position = ballSpawnPosition;
-            golfBalls[golfBallIndex].SetActive(true);
-            golfBallIndex++;
-            if(golfBallIndex >= golfBallsLimit)
+            yield return null;
+            dur = 1f;
+            while(isEmpty() && dur >= 0)
             {
-                golfBallIndex = 0;
+                yield return null;
+                dur -= Time.deltaTime;
+            }
+            if(isEmpty())
+            {
+                SpawnABall();
             }
         }
+    }
+
+    bool isEmpty()
+    {
+        RaycastHit hit;
+        return !Physics.SphereCast(Vector3.zero, 0.1f, Vector3.zero, out hit, 0);
+    }
+   
+    void SpawnABall()
+    {
+        golfBalls[golfBallIndex].GetComponent<Rigidbody>().velocity = Vector3.zero;
+        golfBalls[golfBallIndex].GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
+        golfBalls[golfBallIndex].transform.position = ballSpawnPosition;
+        golfBalls[golfBallIndex].SetActive(true);
+        golfBallIndex++;
+        if(golfBallIndex >= golfBallsLimit)
+        {
+            golfBallIndex = 0;
+        }
+     
     }
 
     void InstantiateGolfBalls()
