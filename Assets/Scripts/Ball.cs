@@ -23,7 +23,7 @@ public class Ball : MonoBehaviour
         if(other.collider.gameObject.tag == "Golf Club")
         {
             ContactPoint contact = other.contacts[0];
-            rb.velocity = other.collider.gameObject.transform.GetChild(0).GetComponent<BatVelocity>().Velocity * thrust;
+            rb.velocity = other.collider.transform.GetChild(0).GetComponent<BatVelocity>().Velocity * thrust;
         }
     }
 }

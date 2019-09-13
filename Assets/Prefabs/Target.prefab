@@ -187,6 +187,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HoleId: 1
+  hitHole: {fileID: 11400000, guid: f9ee6ec6d2d49cf429efc5ac15cca08f, type: 2}
 --- !u!1 &5189909126796838827
 GameObject:
   m_ObjectHideFlags: 0
