@@ -13,18 +13,18 @@ public class HitHole : MonoBehaviour
     //---Sebastian
     //--I'm carter
     //Imma wreck this sorry
-
-
+    private AudioSource audio;
     // Start is called before the first frame update
     void Start()
     {
-        
+        audio = GetComponent<AudioSource>();
     }
  
     private void OnTriggerEnter(Collider other)
     {
         if (other.GetComponent<Collider>().GetType() == typeof(SphereCollider))
         {
+            audio.Play();
             hitHole.Invoke(HoleId); //can't null check for UnityEvents :(
             Destroy(other.gameObject);
         }
