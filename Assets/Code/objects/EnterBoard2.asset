@@ -26,5 +26,3 @@ MonoBehaviour:
           m_StringArgument: EnterBoard2
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnitUnityEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null

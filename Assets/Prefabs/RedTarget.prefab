@@ -187,8 +187,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2028e3f17c3c43759817d99995ffa22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HoleId: 1
-  hitHole: {fileID: 0}
+  HoleId: 12
+  hitHole: {fileID: 11400000, guid: f9ee6ec6d2d49cf429efc5ac15cca08f, type: 2}
 --- !u!82 &8474983747430229292
 AudioSource:
   m_ObjectHideFlags: 0

@@ -26,40 +26,34 @@ public class SpawnBall : MonoBehaviour
 
     IEnumerator spawner()
     {
-        float dur = 0f;
         while(true)
         {
+            yield return new WaitUntil(() =>
+            {
+                return (Vector3.Distance(golfBalls[golfBallIndex].transform.position, ballSpawnPosition) > .5f);
+            });
+            yield return new WaitForSeconds(1f);
+            SpawnABall();
             yield return null;
-            dur = 1f;
-            while(isEmpty() && dur >= 0)
-            {
-                yield return null;
-                dur -= Time.deltaTime;
-            }
-            if(isEmpty())
-            {
-                SpawnABall();
-            }
+            
         }
     }
 
-    bool isEmpty()
-    {
-        RaycastHit hit;
-        return !Physics.SphereCast(Vector3.zero, 0.1f, Vector3.zero, out hit, 0);
-    }
+
    
     void SpawnABall()
     {
+        golfBallIndex++;
+        if (golfBallIndex >= golfBallsLimit)
+        {
+            golfBallIndex = 0;
+        }
         golfBalls[golfBallIndex].GetComponent<Rigidbody>().velocity = Vector3.zero;
         golfBalls[golfBallIndex].GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
         golfBalls[golfBallIndex].transform.position = ballSpawnPosition;
         golfBalls[golfBallIndex].SetActive(true);
-        golfBallIndex++;
-        if(golfBallIndex >= golfBallsLimit)
-        {
-            golfBallIndex = 0;
-        }
+        
+ 
      
     }
 
@@ -73,6 +67,5 @@ public class SpawnBall : MonoBehaviour
         }
 
         golfBalls[0].SetActive(true);
-        golfBallIndex++;
     }
 }

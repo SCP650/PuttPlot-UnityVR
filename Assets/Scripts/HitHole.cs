@@ -26,7 +26,7 @@ public class HitHole : MonoBehaviour
         {
             audio.Play();
             hitHole.Invoke(HoleId); //can't null check for UnityEvents :(
-            Destroy(other.gameObject);
+            other.gameObject.SetActive(false);
         }
         else
         {

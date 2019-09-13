@@ -27,12 +27,12 @@ public class Ball : MonoBehaviour
     {
         if (other.collider.gameObject.tag == "Board")
         {
-            audio.PlayOneShot(audioClips[1]);
+            audio.PlayOneShot(audioClips[0]);
         }
 
         if (other.collider.gameObject.tag == "Golf Club")
         {
-            audio.PlayOneShot(audioClips[3]);
+            audio.PlayOneShot(audioClips[2]);
 
             ContactPoint contact = other.contacts[0];
             rb.velocity = other.collider.transform.GetChild(0).GetComponent<BatVelocity>().Velocity * thrust;
