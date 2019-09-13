@@ -49,6 +49,16 @@ public class Frame : ScriptableObject
             return visible_choices[index];
         }
     }
+
+    public void Enter()
+    {
+        onEnter.Invoke();
+    }
+
+    public void Exit()
+    {
+        onExit.Invoke();
+    }
     
 
 }

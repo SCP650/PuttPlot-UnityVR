@@ -22,13 +22,28 @@ MonoBehaviour:
     animated: 0
     bg: {fileID: 21300000, guid: 9b6841b991d643841958e10c72a07590, type: 3}
     animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
   - line: "\u201CHello player. Nice to meet you.\u201D\r\n"
     animated: 0
     bg: {fileID: 21300000, guid: e521f18a60b167343ab4bbdc9081b54e, type: 3}
     animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
   onEnter:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 2d8a1d7c89dbbec43a7bbb718e385eb6, type: 2}
+        m_MethodName: Invoke
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   onExit:

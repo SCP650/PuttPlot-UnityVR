@@ -6,5 +6,11 @@ using JetBrains.Annotations;
 
 namespace TypeUtil
 {
-    public class Unit {}
+    [System.Serializable]
+    public class Unit
+    {
+        public void Invoke()
+        {
+        }
+    }
 }

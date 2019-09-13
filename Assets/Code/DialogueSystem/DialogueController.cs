@@ -35,6 +35,7 @@ public class DialogueController : MonoBehaviour
 
     IEnumerator ReadDialogue()
     {
+        currentFrame.Enter();
         string temp_string;
         foreach (Transform transform in dialogueChoices.transform)
         {
@@ -61,6 +62,7 @@ public class DialogueController : MonoBehaviour
         {
             GameObject.Instantiate(dialogueChoicePrefab, dialogueChoices.transform).text = choice.text;
         }
+        currentFrame.Exit();
         beginListening();
     }
 
