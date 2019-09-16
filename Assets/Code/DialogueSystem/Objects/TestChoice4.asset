@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: TestChoice4
   m_EditorClassIdentifier: 
   destination: {fileID: 11400000, guid: 0ab8cd82bd3a6d14f898e8b44fd8ce68, type: 2}
-  text: "\u201CUm\u2026.\u2019Par\u2019don me?!\u201D"
+  text: '"What was your name again?"'
   deltaScore: 0

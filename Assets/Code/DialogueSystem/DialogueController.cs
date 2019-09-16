@@ -58,9 +58,12 @@ public class DialogueController : MonoBehaviour
             
         }
 
-        foreach (DialogueChoice choice in currentFrame.visible_choices)
+        for(int i = 0; i < currentFrame.visible_choices.Count;i++)
         {
-            GameObject.Instantiate(dialogueChoicePrefab, dialogueChoices.transform).text = choice.text;
+            var tmp = GameObject.Instantiate(dialogueChoicePrefab, dialogueChoices.transform);
+            tmp.text = currentFrame.visible_choices[i].text;
+            tmp.transform.GetComponentInChildren<Image>().color = i == 0 ? Color.blue : (i == 1 ? Color.red : i == 2 ? Color.green : i == 3 ? Color.white : Color.black);
+            tmp.transform.GetComponentInChildren<Image>().color *= new Color(1, 1, 1, .35f);
         }
         currentFrame.Exit();
         beginListening();

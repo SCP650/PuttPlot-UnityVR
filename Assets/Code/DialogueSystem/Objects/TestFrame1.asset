@@ -18,15 +18,17 @@ MonoBehaviour:
   - {fileID: 11400000, guid: bd86aa65d1047fc4885163712eec928d, type: 2}
   - {fileID: 11400000, guid: 92bc3805043bdb2408a106b39df4c9fc, type: 2}
   lines:
-  - line: frame 1 line 1
+  - line: "\u201CHello player. Nice to meet you.\u201D\r\n"
     animated: 0
-    bg: {fileID: 21300000, guid: 9b6841b991d643841958e10c72a07590, type: 3}
+    bg: {fileID: 9220100454428325209, guid: 24056d40a9f8ece4fa60939d307d8e23, type: 3}
     animationTrigger: 
     lowestScoreAllowed: 0
     highestScoreAllowed: 0
-  - line: "\u201CHello player. Nice to meet you.\u201D\r\n"
+  - line: 'What''s you name?
+
+'
     animated: 0
-    bg: {fileID: 21300000, guid: e521f18a60b167343ab4bbdc9081b54e, type: 3}
+    bg: {fileID: 7744975262169540055, guid: 24056d40a9f8ece4fa60939d307d8e23, type: 3}
     animationTrigger: 
     lowestScoreAllowed: 0
     highestScoreAllowed: 0
@@ -44,10 +46,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   onExit:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null

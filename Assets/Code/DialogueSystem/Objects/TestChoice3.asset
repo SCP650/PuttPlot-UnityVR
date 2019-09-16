@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: TestChoice3
   m_EditorClassIdentifier: 
   destination: {fileID: 11400000, guid: 3d92f296c965d8f47946084ae6a430b1, type: 2}
-  text: "\u201CNice Shot!\u201D"
-  deltaScore: 1
+  text: '"Player1"'
+  deltaScore: 0

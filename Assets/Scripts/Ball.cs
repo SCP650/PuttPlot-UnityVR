@@ -37,6 +37,5 @@ public class Ball : MonoBehaviour
             ContactPoint contact = other.contacts[0];
             rb.velocity = other.collider.transform.GetChild(0).GetComponent<BatVelocity>().Velocity * thrust;
         }
-      
     }
 }

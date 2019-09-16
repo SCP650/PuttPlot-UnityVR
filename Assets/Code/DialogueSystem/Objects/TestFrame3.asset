@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: TestFrame3
   m_EditorClassIdentifier: 
   visible_choices:
-  - {fileID: 11400000, guid: 19ad26d210325d342bdfc36944e941ac, type: 2}
-  - {fileID: 11400000, guid: 61db6cd9e54b1ba4bbc5571826675b4f, type: 2}
-  - {fileID: 11400000, guid: bd86aa65d1047fc4885163712eec928d, type: 2}
   - {fileID: 11400000, guid: c385bb2ed013ef64fa824ca2c71f0de1, type: 2}
+  - {fileID: 11400000, guid: c385bb2ed013ef64fa824ca2c71f0de1, type: 2}
+  - {fileID: 11400000, guid: c385bb2ed013ef64fa824ca2c71f0de1, type: 2}
+  - {fileID: 11400000, guid: 899abc09161b5544ba71635b8c3ca736, type: 2}
   lines:
-  - line: you got the bottom hole
+  - line: Oh My name is NPC Player
     animated: 0
-    bg: {fileID: 21300000, guid: a2bd6f767f8ac014cae5507dea7f61a3, type: 3}
+    bg: {fileID: -2082994569268444688, guid: 24056d40a9f8ece4fa60939d307d8e23, type: 3}
     animationTrigger: 
     lowestScoreAllowed: 0
     highestScoreAllowed: 0
@@ -38,10 +38,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   onExit:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null

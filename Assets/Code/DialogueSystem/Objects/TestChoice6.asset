@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: TestChoice6
   m_EditorClassIdentifier: 
   destination: {fileID: 11400000, guid: 71702c8a0fa347742bb5c71844c1ceb1, type: 2}
-  text: Wait I can reuse dialogue?
+  text: Hit this to go back to the beginning
   deltaScore: 0

@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: TestChoice5
   m_EditorClassIdentifier: 
   destination: {fileID: 11400000, guid: 0ab8cd82bd3a6d14f898e8b44fd8ce68, type: 2}
-  text: Nani?!
+  text: Hit this to ask her name
   deltaScore: 1
