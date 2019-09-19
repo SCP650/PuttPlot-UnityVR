@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Reference<T> : ScriptableObject
 {
@@ -10,4 +11,5 @@ public class Reference<T> : ScriptableObject
         get { return value;}
         set { this.value = value; }
     }
+    
 }

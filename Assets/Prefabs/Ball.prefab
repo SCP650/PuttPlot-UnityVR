@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 217254136765903581}
   - component: {fileID: 6775824632799486282}
   - component: {fileID: 8215427841658479064}
+  - component: {fileID: 9005129958987560395}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
@@ -104,9 +105,9 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8432711527256233019}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 10
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -124,12 +125,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 557c2e113cbaea74ead6bca67e57d4f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thrust: 6
-  checkBallHit: {fileID: 0}
+  thrust: 59
+  checkBallHit: {fileID: 11400000, guid: f9ee6ec6d2d49cf429efc5ac15cca08f, type: 2}
   audioClips:
   - {fileID: 8300000, guid: b4749114d6de94c489e266de4c2a1ca0, type: 3}
   - {fileID: 8300000, guid: 619afc90e46894d0aaa87ee1d4299bac, type: 3}
   - {fileID: 8300000, guid: d4e036520c740465bb167e16d9b4d559, type: 3}
+  threshold_for_power: 0.075
+  momentum: {fileID: 11400000, guid: 61da574eaa420be4d915edff81995d03, type: 2}
 --- !u!82 &6775824632799486282
 AudioSource:
   m_ObjectHideFlags: 0
@@ -340,3 +343,15 @@ TrailRenderer:
   m_MinVertexDistance: 0.1
   m_Autodestruct: 0
   m_Emitting: 1
+--- !u!114 &9005129958987560395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8432711527256233019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17eab87083dc2f7408e9feb66dbc743a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

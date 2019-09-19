@@ -16,11 +16,36 @@ public class Ball : MonoBehaviour
 
     private Rigidbody rb;
     private AudioSource audio;
+   
+
+    [SerializeField]
+    float threshold_for_power = 0.075f;
+
+    [SerializeField]
+    Vector3Ref momentum;
 
     void Start()
     {
         audio = GetComponent<AudioSource>();
         rb = GetComponent<Rigidbody>();
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Golf Club")
+        {
+            audio.PlayOneShot(audioClips[2]);
+
+            if (momentum.val.magnitude > threshold_for_power)
+            {
+                rb.AddForce(thrust * new Vector3(momentum.val.x, 0, momentum.val.z), ForceMode.VelocityChange); //ignores vertical momentum for speed. maybe we should multiply by mag and noramilze the 2d vector
+            }
+            else
+            {
+                rb.AddForce(thrust * new Vector3(momentum.val.x, 0, momentum.val.z) * .2f, ForceMode.VelocityChange);
+            }
+        }
+
     }
 
     private void OnCollisionEnter(Collision other)
@@ -30,12 +55,5 @@ public class Ball : MonoBehaviour
             audio.PlayOneShot(audioClips[0]);
         }
 
-        if (other.collider.gameObject.tag == "Golf Club")
-        {
-            audio.PlayOneShot(audioClips[2]);
-
-            ContactPoint contact = other.contacts[0];
-            rb.velocity = other.collider.transform.GetChild(0).GetComponent<BatVelocity>().Velocity * thrust;
-        }
     }
 }

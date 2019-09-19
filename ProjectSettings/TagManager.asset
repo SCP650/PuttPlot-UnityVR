@@ -8,6 +8,7 @@ TagManager:
   - FxTemporaire
   - Golf Club
   - Board
+  - Ramp
   layers:
   - Default
   - TransparentFX
