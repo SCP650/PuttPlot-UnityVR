@@ -5,13 +5,10 @@ The game leverages Unity's UnityEvents and ScriptableObjects for more efficient 
 **Gameplay link: https://www.youtube.com/watch?v=nhujQxwyqC4**
 
 # Story
-*Dog Caddy sniffs about, his head dips into your pocket and your wallet falls to the ground.*
-
-*Date: What's that? You want the credit card?*
-
-*Narrator: Dog Caddy paws excitedly at your mastercard.*
-
-Date: Awwww, look how cute he is. How can you say no?*
+*Dog Caddy sniffs about, his head dips into your pocket and your wallet falls to the ground.*\
+*Date: What's that? You want the credit card?* \
+*Narrator: Dog Caddy paws excitedly at your mastercard.* \
+*Date: Awwww, look how cute he is. How can you say no?* \
 ***[Say No]*** ***[Say Yes]***
 
 If you would like to play the game in text-adventure format, please download the "Story Branching Narrative Textadventure" folder. The files can be played by clicking on them. If you would like to analyse the scenes rather than play through them, upload them to https://twinery.org/.  
