@@ -1,4 +1,4 @@
-# Intro
+# Intro:
 Welcome to the PuttPlot text adventure! The following files were initially written as a way to manage the game's script, but can also be played through (albeit more limitedly) as its own experience. 
 
 *This project was made with Twinery. If you would like to easily view all branching paths without playing the game, download the files and upload them to Twinery.
@@ -17,6 +17,6 @@ We created four board types to provide players with an interesting and diverse b
 *Skeeball Board:* Four choices, arranged like a skeeball board so the outcome is largely skill based. By aiming for the top hole, player risks missing and having the ball roll down into the bottom hole.
 *Pinball Board:* Four choices, but weird hole placements and board contains bumpers that'll launch the ball around. Represents random or unpredictable moments with partially random outcomes often heightening comedic moments.
 
-# Some scenes will begin by explaining their purpose
+# Some scenes will begin by explaining their purpose:
 (The purpose of the tutorial is to ease players into the game format, giving them one choice each frame so that they can both practice 
 aiming as well as ensure that they don't get overwhelmed).
