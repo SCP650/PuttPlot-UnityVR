@@ -15,6 +15,6 @@ If you would like to play the game in text-adventure format, please download the
 
 
 
-![](dog_sprites.png)
+![](dog_sprite.png)
 
 Team Project for CMU 53-451: Research Issues in Game Development: Designing for XR. Fall 2019  
