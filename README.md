@@ -7,7 +7,7 @@ The game leverages Unity's UnityEvents and ScriptableObjects for more efficient 
 # Story
 *Dog Caddy sniffs about, his head dips into your pocket and your wallet falls to the ground.*\
 *Date: What's that? You want the credit card?* \
-*Narrator: Dog Caddy paws excitedly at your mastercard.* \
+*Dog Caddy paws excitedly at your mastercard.* \
 *Date: Awwww, look how cute he is. How can you say no?* \
 ***[Say No]*** ***[Say Yes]***
 
