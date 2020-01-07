@@ -13,6 +13,8 @@ The game leverages Unity's UnityEvents and ScriptableObjects for more efficient 
 
 If you would like to play the game in text-adventure format, please download the "Story Branching Narrative Textadventure" folder. The files can be played by clicking on them. If you would instead prefer to analyse the scenes and all their possible narratives, upload the .html files to https://twinery.org/.  
 
-![](gameplay.gif)
+
+
+![](dog_sprites.png)
 
 Team Project for CMU 53-451: Research Issues in Game Development: Designing for XR. Fall 2019  
