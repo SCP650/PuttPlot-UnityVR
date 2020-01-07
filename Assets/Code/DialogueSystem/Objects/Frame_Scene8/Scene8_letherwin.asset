@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40789df360cf18d4db8041e9ce8cb7aa, type: 3}
+  m_Name: Scene8_letherwin
+  m_EditorClassIdentifier: 
+  visible_choices:
+  - {fileID: 11400000, guid: f34c72e116537cb4c8f625372a587fb4, type: 2}
+  lines:
+  - line: Boo-yah! I can't believe I won.
+    animated: 0
+    bg: {fileID: 4985901599990129410, guid: 41b173531f0db5042bf5b878f8bd15a6, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 1
+    voiceLine: {fileID: 8300000, guid: 64dc4b4680a5aba4ab3e7958f3aa4783, type: 3}
+  - line: I guess I really did learn a thing or two from you.
+    animated: 0
+    bg: {fileID: 4985901599990129410, guid: 41b173531f0db5042bf5b878f8bd15a6, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 1
+    voiceLine: {fileID: 8300000, guid: 0ba82c1c511e2c24097a10a341338593, type: 3}
+  - line: You might not be a great winner, but you're a good loser and a terrific
+      golf partner.
+    animated: 0
+    bg: {fileID: -3246310759543025145, guid: 41b173531f0db5042bf5b878f8bd15a6, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 1
+    voiceLine: {fileID: 8300000, guid: e1544c786054d8c42875c86cc219cbf9, type: 3}
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  noBoard: 1

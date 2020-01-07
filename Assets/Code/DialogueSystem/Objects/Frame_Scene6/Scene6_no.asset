@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40789df360cf18d4db8041e9ce8cb7aa, type: 3}
+  m_Name: Scene6_no
+  m_EditorClassIdentifier: 
+  visible_choices:
+  - {fileID: 11400000, guid: 2ac3b116c129fde43be3fe84c0690b42, type: 2}
+  lines:
+  - line: Dog Caddy whimpers dejectedly. He drops the ball.
+    animated: 0
+    bg: {fileID: 5273979337700753066, guid: 5d55a0aeedf46164d803b266dc5f10d8, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 2
+    voiceLine: {fileID: 0}
+  - line: Sorry buddy, maybe next time.
+    animated: 0
+    bg: {fileID: 2888673585565292974, guid: 41b173531f0db5042bf5b878f8bd15a6, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 1
+    voiceLine: {fileID: 8300000, guid: 12daf391eb80ba74e800831dd0dbb020, type: 3}
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  noBoard: 1

@@ -25,12 +25,12 @@ public class HitHole : MonoBehaviour
         if (other.GetComponent<Collider>().GetType() == typeof(SphereCollider))
         {
             audio.Play();
-            hitHole.Invoke(HoleId); //can't null check for UnityEvents :(
+            hitHole.InvokeAsync(this,HoleId); //can't null check for UnityEvents :(
             other.gameObject.SetActive(false);
         }
         else
         {
-            Debug.Log("It's not a sphere dumb ass");
+            Debug.Log("It's not a sphere dumb-ass");
         }
 
     }

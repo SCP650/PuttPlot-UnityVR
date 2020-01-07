@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40789df360cf18d4db8041e9ce8cb7aa, type: 3}
+  m_Name: Scene7_jester
+  m_EditorClassIdentifier: 
+  visible_choices:
+  - {fileID: 11400000, guid: 5c7e26c2946edbf459f23b9ee44598ab, type: 2}
+  lines:
+  - line: You mean call me a clown?
+    animated: 0
+    bg: {fileID: -7661051444469958825, guid: 41b173531f0db5042bf5b878f8bd15a6, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 0
+    voiceLine: {fileID: 8300000, guid: f38856c0d6d20ab44b78adfff319a324, type: 3}
+  - line: I might be in the water, but you are truely the greatest jester of them
+      all.
+    animated: 0
+    bg: {fileID: 4985901599990129410, guid: 41b173531f0db5042bf5b878f8bd15a6, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 0
+    voiceLine: {fileID: 8300000, guid: f550459a7ff87814295a638a75e77ffb, type: 3}
+  - line: Now hurry up and pull me out before I pull you in.
+    animated: 0
+    bg: {fileID: 4985901599990129410, guid: 41b173531f0db5042bf5b878f8bd15a6, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 0
+    voiceLine: {fileID: 8300000, guid: 4a5435cd8b7ddc940bf957dce37e87b4, type: 3}
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  noBoard: 1

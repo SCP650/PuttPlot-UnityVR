@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40789df360cf18d4db8041e9ce8cb7aa, type: 3}
+  m_Name: Scene4_1
+  m_EditorClassIdentifier: 
+  visible_choices:
+  - {fileID: 11400000, guid: e602a8ef5faf18648a1d484b4ecf5829, type: 2}
+  - {fileID: 11400000, guid: 6388f48b14071904eb319c85bab9ba7d, type: 2}
+  - {fileID: 11400000, guid: 85f164124b6dc9a4991bf73a57a4c1fb, type: 2}
+  - {fileID: 11400000, guid: e602a8ef5faf18648a1d484b4ecf5829, type: 2}
+  lines:
+  - line: In school we used to play this game called Space Race, were we'd put a kid
+      on one side of the seesaw then all jump on the other end. We would try and see
+      how high we could launch them.
+    animated: 0
+    bg: {fileID: 4985901599990129410, guid: 41b173531f0db5042bf5b878f8bd15a6, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 1
+    voiceLine: {fileID: 8300000, guid: 6e1e985a5dee8384b8006dbf12be1b71, type: 3}
+  - line: We stopped playing because one kid hit his head on the drainage pipe and
+      blacked out. He argued that since when he was unconscious he saw heaven that
+      he had gone higher then anyone could ever go, so there was no use in playing
+      anymore.
+    animated: 0
+    bg: {fileID: 2888673585565292974, guid: 41b173531f0db5042bf5b878f8bd15a6, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 1
+    voiceLine: {fileID: 8300000, guid: 05bd3e8224756ae41bee46fb82ccc3b5, type: 3}
+  - line: I don't think I ever saw him at school after that...
+    animated: 0
+    bg: {fileID: 4985901599990129410, guid: 41b173531f0db5042bf5b878f8bd15a6, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 1
+    voiceLine: {fileID: 8300000, guid: b518a096a77917547a7fe1d1a5497546, type: 3}
+  - line: '...Anyways, uhhh...'
+    animated: 0
+    bg: {fileID: -7661051444469958825, guid: 41b173531f0db5042bf5b878f8bd15a6, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 1
+    voiceLine: {fileID: 8300000, guid: 9fb80f79d781f21489174bc91a7b2f6f, type: 3}
+  - line: '...'
+    animated: 0
+    bg: {fileID: -7661051444469958825, guid: 41b173531f0db5042bf5b878f8bd15a6, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 1
+    voiceLine: {fileID: 0}
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 72c833ddd536d8b4583764f63744c5ea, type: 2}
+        m_MethodName: Invoke
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  noBoard: 0

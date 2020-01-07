@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40789df360cf18d4db8041e9ce8cb7aa, type: 3}
+  m_Name: Scene2_1
+  m_EditorClassIdentifier: 
+  visible_choices:
+  - {fileID: 11400000, guid: bfd29bcd76093884ebf472fe11073b74, type: 2}
+  - {fileID: 11400000, guid: 4226314bafc83734c9b87d5a7e960d6f, type: 2}
+  lines:
+  - line: Hey, you've been awfully quiet there lining up this shot. What's on your
+      mind?
+    animated: 0
+    bg: {fileID: 2888673585565292974, guid: 41b173531f0db5042bf5b878f8bd15a6, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 1
+    voiceLine: {fileID: 8300000, guid: 029c50ed88273894496ba7c22d389922, type: 3}
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 678bde714e2c7d04ab79d7d1c88f4249, type: 2}
+        m_MethodName: Invoke
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  noBoard: 0

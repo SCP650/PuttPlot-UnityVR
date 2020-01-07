@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40789df360cf18d4db8041e9ce8cb7aa, type: 3}
+  m_Name: Scene7_clown
+  m_EditorClassIdentifier: 
+  visible_choices:
+  - {fileID: 11400000, guid: 5c7e26c2946edbf459f23b9ee44598ab, type: 2}
+  lines:
+  - line: Haha I can't believe you remembered! You warm my cold, soggy, heart.
+    animated: 0
+    bg: {fileID: -3246310759543025145, guid: 41b173531f0db5042bf5b878f8bd15a6, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 1
+    voiceLine: {fileID: 8300000, guid: d6f724ee4d2787c4bae3cf44e8ab3b7c, type: 3}
+  - line: Now come closer so I can splash you.
+    animated: 0
+    bg: {fileID: 2888673585565292974, guid: 41b173531f0db5042bf5b878f8bd15a6, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 1
+    voiceLine: {fileID: 8300000, guid: e1b27c2eff260bc489b3a42f92422e29, type: 3}
+  - line: No way!
+    animated: 0
+    bg: {fileID: 21300000, guid: c06f6fa5dda6abf46907fa7be3657791, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 0
+    voiceLine: {fileID: 0}
+  - line: Yes way!
+    animated: 0
+    bg: {fileID: -153700000187271786, guid: 41b173531f0db5042bf5b878f8bd15a6, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 0
+    voiceLine: {fileID: 8300000, guid: f7128d907ca737e4b90fb42bff38ab3f, type: 3}
+  - line: Fine. But you better pull me out before I try and pull you in.
+    animated: 0
+    bg: {fileID: 4985901599990129410, guid: 41b173531f0db5042bf5b878f8bd15a6, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 0
+    voiceLine: {fileID: 8300000, guid: 51d81b77f28adbf4f8d57c8704f4114a, type: 3}
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  noBoard: 1

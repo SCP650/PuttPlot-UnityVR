@@ -1,0 +1,182 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40789df360cf18d4db8041e9ce8cb7aa, type: 3}
+  m_Name: Scene6_1
+  m_EditorClassIdentifier: 
+  visible_choices:
+  - {fileID: 11400000, guid: 6fe2ebe71a6bfcd4fbbf75bf50a88aa3, type: 2}
+  - {fileID: 11400000, guid: fae3a96ccb9a1c841bde89b1a67294fb, type: 2}
+  lines:
+  - line: Fore! Arrrrgh... that's going long. Goodbye ball, I'm never getting that
+      back.
+    animated: 0
+    bg: {fileID: 21300000, guid: c06f6fa5dda6abf46907fa7be3657791, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 1
+    voiceLine: {fileID: 8300000, guid: 60a20f827635b774387f3d462e821d84, type: 3}
+  - line: Wait! What's that moving through the bushes?
+    animated: 0
+    bg: {fileID: 21300000, guid: c06f6fa5dda6abf46907fa7be3657791, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 1
+    voiceLine: {fileID: 8300000, guid: be6224bdcbeefb243bf63d968b299290, type: 3}
+  - line: '*Glistens spectacularly*'
+    animated: 0
+    bg: {fileID: 5273979337700753066, guid: 5d55a0aeedf46164d803b266dc5f10d8, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 2
+    voiceLine: {fileID: 8300000, guid: df75092a236846c4383c4973be1f4418, type: 3}
+  - line: OOOOOOOOOOOOOOOOOOOOOOOO... and he's got my ball in his mouth. Oh my god!
+    animated: 0
+    bg: {fileID: -5595909428504545547, guid: 41b173531f0db5042bf5b878f8bd15a6, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 1
+    voiceLine: {fileID: 8300000, guid: 1649eff554a529147b169896a9d2f19a, type: 3}
+  - line: '*pant pant*'
+    animated: 0
+    bg: {fileID: 5273979337700753066, guid: 5d55a0aeedf46164d803b266dc5f10d8, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 2
+    voiceLine: {fileID: 0}
+  - line: EEEEEEEEEEEEEEEEEEEEEE
+    animated: 0
+    bg: {fileID: -5595909428504545547, guid: 41b173531f0db5042bf5b878f8bd15a6, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 1
+    voiceLine: {fileID: 8300000, guid: 8be2417f2019d8e48a1fb234b8960083, type: 3}
+  - line: Whose a good boye. Is it you? Yes its you, I bet its you.
+    animated: 0
+    bg: {fileID: 4985901599990129410, guid: 41b173531f0db5042bf5b878f8bd15a6, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 1
+    voiceLine: {fileID: 8300000, guid: caa2184b4dd0dc34593d2a55dd1558bc, type: 3}
+  - line: Blegh!
+    animated: 0
+    bg: {fileID: 5644367852146086930, guid: 5d55a0aeedf46164d803b266dc5f10d8, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 2
+    voiceLine: {fileID: 0}
+  - line: Don't you just love him? Now drop it. He won't drop it.
+    animated: 0
+    bg: {fileID: 4985901599990129410, guid: 41b173531f0db5042bf5b878f8bd15a6, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 1
+    voiceLine: {fileID: 8300000, guid: 42147e70f3a81d74e99455e0d6e17989, type: 3}
+  - line: '*extra pant*'
+    animated: 0
+    bg: {fileID: 5273979337700753066, guid: 5d55a0aeedf46164d803b266dc5f10d8, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 2
+    voiceLine: {fileID: 0}
+  - line: Well, how about a trade?
+    animated: 0
+    bg: {fileID: 2888673585565292974, guid: 41b173531f0db5042bf5b878f8bd15a6, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 1
+    voiceLine: {fileID: 8300000, guid: 578eb17f89f5a3c4a9557df2decc67cb, type: 3}
+  - line: '*Woof*'
+    animated: 0
+    bg: {fileID: 5644367852146086930, guid: 5d55a0aeedf46164d803b266dc5f10d8, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 2
+    voiceLine: {fileID: 0}
+  - line: Okay, do you want this stick?
+    animated: 0
+    bg: {fileID: 4985901599990129410, guid: 41b173531f0db5042bf5b878f8bd15a6, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 1
+    voiceLine: {fileID: 8300000, guid: c292b4e351f7a00448c9a0c89b770699, type: 3}
+  - line: '*Woof woof*'
+    animated: 0
+    bg: {fileID: 5273979337700753066, guid: 5d55a0aeedf46164d803b266dc5f10d8, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 2
+    voiceLine: {fileID: 0}
+  - line: Dog Caddy sniffs about, his head dips into your pocket and your wallet falls
+      to the ground.
+    animated: 0
+    bg: {fileID: 5273979337700753066, guid: 5d55a0aeedf46164d803b266dc5f10d8, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 1
+    voiceLine: {fileID: 0}
+  - line: What's that? You want the credit card?
+    animated: 0
+    bg: {fileID: 4985901599990129410, guid: 41b173531f0db5042bf5b878f8bd15a6, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 1
+    voiceLine: {fileID: 8300000, guid: d9a77202c5a299e4f8a8e51dc0b76276, type: 3}
+  - line: Dog Caddy paws excitedly at your mastercard.
+    animated: 0
+    bg: {fileID: 5644367852146086930, guid: 5d55a0aeedf46164d803b266dc5f10d8, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 2
+    voiceLine: {fileID: 0}
+  - line: Awwww, look how cute he is. How can you say no?
+    animated: 0
+    bg: {fileID: -3246310759543025145, guid: 41b173531f0db5042bf5b878f8bd15a6, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 1
+    voiceLine: {fileID: 8300000, guid: ecda6f1fc8011e2419daca3f9295d681, type: 3}
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 678bde714e2c7d04ab79d7d1c88f4249, type: 2}
+        m_MethodName: Invoke
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  noBoard: 0

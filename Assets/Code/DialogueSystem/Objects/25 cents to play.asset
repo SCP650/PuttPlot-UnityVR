@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cecbd4e96b7f2d74a80948b655baf590, type: 3}
+  m_Name: 25 cents to play
+  m_EditorClassIdentifier: 
+  destination: {fileID: 11400000, guid: a2e077c9036f01943964bee0ff8b1c5b, type: 2}
+  text: 
+  line:
+    line: 
+    animated: 0
+    bg: {fileID: 21300000, guid: c06f6fa5dda6abf46907fa7be3657791, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 0
+    voiceLine: {fileID: 0}
+  three_words: 
+  deltaScore: 0

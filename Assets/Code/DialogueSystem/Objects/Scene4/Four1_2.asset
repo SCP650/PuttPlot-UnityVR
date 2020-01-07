@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cecbd4e96b7f2d74a80948b655baf590, type: 3}
+  m_Name: Four1_2
+  m_EditorClassIdentifier: 
+  destination: {fileID: 11400000, guid: de62b8fcbfe737a499379cc4e29c242e, type: 2}
+  text: This is going to sound crazy, but you ever feel that minigolf courses are
+    a grim view into what our lives would be like if playground designers were civil
+    engineers?
+  line:
+    line: 
+    animated: 0
+    bg: {fileID: 0}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 0
+    voiceLine: {fileID: 0}
+  three_words: Clever observation
+  deltaScore: 1

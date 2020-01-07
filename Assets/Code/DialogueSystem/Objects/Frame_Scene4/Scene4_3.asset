@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40789df360cf18d4db8041e9ce8cb7aa, type: 3}
+  m_Name: Scene4_3
+  m_EditorClassIdentifier: 
+  visible_choices:
+  - {fileID: 11400000, guid: b14435a3ed4370043b2cf5d246f52180, type: 2}
+  lines:
+  - line: 'You will never remember the living room of your childhood home. The way
+      you''d arrange your legos into a little village and pretend to be the mayor. '
+    animated: 0
+    bg: {fileID: 21300000, guid: c06f6fa5dda6abf46907fa7be3657791, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 2
+    voiceLine: {fileID: 0}
+  - line: '...or the warthm of your father''s laugh as you''d press yourself against
+      his belly and your head would rumble as the two of you watched "The Letterman
+      Show."'
+    animated: 0
+    bg: {fileID: 21300000, guid: c06f6fa5dda6abf46907fa7be3657791, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 2
+    voiceLine: {fileID: 0}
+  - line: All these and a million more little memories, are burned away and lost in
+      the vast onward march of the universe. Such is the price one pays for growing
+      up.
+    animated: 0
+    bg: {fileID: 21300000, guid: c06f6fa5dda6abf46907fa7be3657791, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 2
+    voiceLine: {fileID: 0}
+  - line: I like your dress.
+    animated: 0
+    bg: {fileID: 21300000, guid: c06f6fa5dda6abf46907fa7be3657791, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 0
+    voiceLine: {fileID: 0}
+  - line: Thanks! You don't look so bad yourself.
+    animated: 0
+    bg: {fileID: -3246310759543025145, guid: 41b173531f0db5042bf5b878f8bd15a6, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 1
+    voiceLine: {fileID: 8300000, guid: 8fb35efb06a642d4f9c8a12486146c00, type: 3}
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  noBoard: 1

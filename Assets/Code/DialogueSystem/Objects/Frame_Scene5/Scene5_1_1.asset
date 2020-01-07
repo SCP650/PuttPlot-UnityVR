@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40789df360cf18d4db8041e9ce8cb7aa, type: 3}
+  m_Name: Scene5_1_1
+  m_EditorClassIdentifier: 
+  visible_choices:
+  - {fileID: 11400000, guid: 2c8d659230d5715469a3d320b7328fe6, type: 2}
+  - {fileID: 11400000, guid: 7108d1ad44517a24ba2d22687dc960aa, type: 2}
+  - {fileID: 11400000, guid: 7108d1ad44517a24ba2d22687dc960aa, type: 2}
+  - {fileID: 11400000, guid: 99737e410f9c7fc47addd6416d683c6d, type: 2}
+  lines:
+  - line: Alright then lets see that golf form.
+    animated: 0
+    bg: {fileID: 2888673585565292974, guid: 41b173531f0db5042bf5b878f8bd15a6, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 1
+    voiceLine: {fileID: 8300000, guid: 56bc58ddf43e0a24cb7fd50ca07eeaef, type: 3}
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: e947ae12ae29bf84c80aa1725bdbb82f, type: 2}
+        m_MethodName: Invoke
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  noBoard: 0

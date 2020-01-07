@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40789df360cf18d4db8041e9ce8cb7aa, type: 3}
+  m_Name: SceneEnd_Lose
+  m_EditorClassIdentifier: 
+  visible_choices: []
+  lines:
+  - line: '... love to stay friends.'
+    animated: 0
+    bg: {fileID: 4985901599990129410, guid: 41b173531f0db5042bf5b878f8bd15a6, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 1
+    voiceLine: {fileID: 8300000, guid: 7d6202e80838dd54abb69c072b333bcd, type: 3}
+  - line: Yeah well I'd love to not stay friends
+    animated: 0
+    bg: {fileID: 21300000, guid: c06f6fa5dda6abf46907fa7be3657791, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 0
+    voiceLine: {fileID: 0}
+  - line: I'm not saying I didn't have a good time, I just didn't feel anything romantically.
+    animated: 0
+    bg: {fileID: 2888673585565292974, guid: 41b173531f0db5042bf5b878f8bd15a6, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 1
+    voiceLine: {fileID: 8300000, guid: 4bda3a70f70082f428dbab41946f4a66, type: 3}
+  - line: I might not be the best at romance, but godamnit if I'm not the best at
+      golf.
+    animated: 0
+    bg: {fileID: 0}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 0
+    voiceLine: {fileID: 0}
+  - line: Wait!...
+    animated: 0
+    bg: {fileID: 5230314890762369410, guid: 41b173531f0db5042bf5b878f8bd15a6, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 1
+    voiceLine: {fileID: 8300000, guid: e4d11bd27ec8f3f469ad13e53c1ad151, type: 3}
+  - line: Me and my golfball will be going now.
+    animated: 0
+    bg: {fileID: 21300000, guid: c06f6fa5dda6abf46907fa7be3657791, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 0
+    voiceLine: {fileID: 0}
+  - line: See you soon! Bring more of your human money next time!
+    animated: 0
+    bg: {fileID: -5739060715783717192, guid: 8df74941b9e4e374dbcfc4eb1aaf9d48, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 2
+    voiceLine: {fileID: 0}
+  - line: Yeah whatever dogman.
+    animated: 0
+    bg: {fileID: 21300000, guid: c06f6fa5dda6abf46907fa7be3657791, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 0
+    voiceLine: {fileID: 0}
+  - line: You step outside to find you're still locked out of your car. It will be
+      a long walk home...
+    animated: 0
+    bg: {fileID: 21300000, guid: c06f6fa5dda6abf46907fa7be3657791, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 2
+    voiceLine: {fileID: 0}
+  - line: Or maybe that's not how the story goes. I'm along in dog years. Often my
+      memories jumble, rearrange, take new shape...
+    animated: 0
+    bg: {fileID: -8919393940278670850, guid: 8df74941b9e4e374dbcfc4eb1aaf9d48, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 2
+    voiceLine: {fileID: 0}
+  - line: Such is the price one pays for growing up. The death of one truth, and the
+      birth of a million.
+    animated: 0
+    bg: {fileID: -8919393940278670850, guid: 8df74941b9e4e374dbcfc4eb1aaf9d48, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 2
+    voiceLine: {fileID: 0}
+  - line: Nowadays I find its best to go back, unravel the pieces until we find ourselves
+      smiling at the outcome, satisfied.
+    animated: 0
+    bg: {fileID: -5739060715783717192, guid: 8df74941b9e4e374dbcfc4eb1aaf9d48, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 2
+    voiceLine: {fileID: 0}
+  - line: Do not be afraid to go back and try again. Its always a different story.
+    animated: 0
+    bg: {fileID: -8919393940278670850, guid: 8df74941b9e4e374dbcfc4eb1aaf9d48, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 2
+    voiceLine: {fileID: 0}
+  - line: But what do I know? I'm just a dog.
+    animated: 0
+    bg: {fileID: 5644367852146086930, guid: 5d55a0aeedf46164d803b266dc5f10d8, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 2
+    voiceLine: {fileID: 0}
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  noBoard: 1

@@ -7,7 +7,11 @@ public class DialogueChoice : ScriptableObject
 {
     [SerializeField] public Frame destination;
 
-    [SerializeField] public string text;
+    [SerializeField][TextArea] public string text;
+
+    [SerializeField] public line_of_dialogue line;
+
+    [SerializeField] public string three_words;
 
     [SerializeField] public int deltaScore;
 }

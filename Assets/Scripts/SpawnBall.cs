@@ -7,65 +7,78 @@ public class SpawnBall : MonoBehaviour
     [SerializeField]
     private GameObject golfBallPrefab;
 
-    [SerializeField]
-    private int golfBallsLimit;
 
-    private GameObject[] golfBalls;
+    [SerializeField] UnitEvent boardIn;
+
+    [SerializeField] UnitEvent increase_dur;
+
+    [SerializeField] IntEvent holechoosen;
+
+    GameObject ball;
     private Vector3 ballSpawnPosition;
-    private int golfBallIndex;
+    bool respawn_in_5 = false;
+
+    float wait_time = 3.25f;
 
     void Start()
     {
-        golfBalls = new GameObject[golfBallsLimit];
-        golfBallIndex = 0;
-        ballSpawnPosition = golfBallPrefab.transform.position;
+        ballSpawnPosition = transform.position;
 
-        InstantiateGolfBalls();
+        ball = Instantiate(golfBallPrefab, ballSpawnPosition, Quaternion.identity);
+        ball.transform.parent = transform;
+        ball.SetActive(false);
         StartCoroutine(spawner());
+
+        holechoosen.AddListener(_ => wait_time = 3.25f);
+        increase_dur.AddListener(() => wait_time = 15);
     }
 
     IEnumerator spawner()
     {
         while(true)
         {
+            var routine = StartCoroutine(in5());
             yield return new WaitUntil(() =>
+                !ball.active || ball.transform.position.y < -5 || respawn_in_5);
+            respawn_in_5 = false;
+            StopCoroutine(routine);
+            if(!ball.active)
+                boardIn.AddListenerOneTime(_ => SpawnABall());
+            else
             {
-                return (Vector3.Distance(golfBalls[golfBallIndex].transform.position, ballSpawnPosition) > .5f);
-            });
-            yield return new WaitForSeconds(1f);
-            SpawnABall();
+                yield return new WaitForSeconds(.25f);
+                SpawnABall();
+            }
             yield return null;
             
         }
     }
 
 
+    IEnumerator in5()
+    {
+        yield return new WaitUntil(() => ball.GetComponent<Rigidbody>().velocity.magnitude > .1f);
+        yield return new WaitForSeconds(1);
+        if((ball.transform.position - ballSpawnPosition).magnitude < 2)
+            respawn_in_5 = true;
+        yield return new WaitForSeconds(wait_time);
+        respawn_in_5 = true;
+    }
    
     void SpawnABall()
     {
-        golfBallIndex++;
-        if (golfBallIndex >= golfBallsLimit)
-        {
-            golfBallIndex = 0;
-        }
-        golfBalls[golfBallIndex].GetComponent<Rigidbody>().velocity = Vector3.zero;
-        golfBalls[golfBallIndex].GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
-        golfBalls[golfBallIndex].transform.position = ballSpawnPosition;
-        golfBalls[golfBallIndex].SetActive(true);
+        ball.SetActive(false);
+        ball = Instantiate(golfBallPrefab, ballSpawnPosition, Quaternion.identity);
+        /*ball.GetComponent<Light>().intensity = 0;
+        ball.GetComponent<Rigidbody>().velocity = Vector3.zero;
+        ball.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
+        ball.transform.position = ballSpawnPosition;
+        ball.SetActive(true);
+        ball.GetComponent<TrailRenderer>()?.Clear();*/
         
  
      
     }
 
-    void InstantiateGolfBalls()
-    {
-        for(int i = 0; i < golfBallsLimit; i++)
-        {
-            golfBalls[i] = Instantiate(golfBallPrefab, ballSpawnPosition, Quaternion.identity);
-            golfBalls[i].transform.parent = this.gameObject.transform;
-            golfBalls[i].SetActive(false);
-        }
 
-        golfBalls[0].SetActive(true);
-    }
 }

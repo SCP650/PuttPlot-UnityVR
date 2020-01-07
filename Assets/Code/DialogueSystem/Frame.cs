@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
+[Serializable] public enum Character { player, date, dog}
+
 [Serializable]
 public struct line_of_dialogue
 {
@@ -18,6 +20,10 @@ public struct line_of_dialogue
     [SerializeField] public int lowestScoreAllowed;
 
     [SerializeField] public int highestScoreAllowed;//TODO incorporate
+    
+    [SerializeField] public Character speaker;
+
+     public AudioClip voiceLine;
 }
 
 [CreateAssetMenu(menuName = "Dialogue/Frame")]
@@ -35,6 +41,8 @@ public class Frame : ScriptableObject
     [SerializeField] private UnityEvent onEnter;
 
     [SerializeField] private UnityEvent onExit;
+
+    [SerializeField] public bool noBoard;
 
     public DialogueChoice this[int index]
     {
@@ -59,6 +67,4 @@ public class Frame : ScriptableObject
     {
         onExit.Invoke();
     }
-    
-
 }

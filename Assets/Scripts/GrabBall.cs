@@ -18,7 +18,7 @@ public class GrabBall : MonoBehaviour
 
     IEnumerator MoveBall(Vector3 target, Collider ball)
     {
-        while (ball.transform.position != target)
+        while (Vector3.Distance(ball.transform.position,target) > .1f)
         {
             ball.transform.position = Vector3.MoveTowards(ball.transform.position, target, maxSpeed * Time.deltaTime);
             yield return null;

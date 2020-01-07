@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40789df360cf18d4db8041e9ce8cb7aa, type: 3}
+  m_Name: Scene6_yes
+  m_EditorClassIdentifier: 
+  visible_choices:
+  - {fileID: 11400000, guid: 2ac3b116c129fde43be3fe84c0690b42, type: 2}
+  lines:
+  - line: The dog drops the ball and saunters off, credit card in tow. He almost walks
+      drunkenly into a wall as his wagging tail throws him off-balance.
+    animated: 0
+    bg: {fileID: 5644367852146086930, guid: 5d55a0aeedf46164d803b266dc5f10d8, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 2
+    voiceLine: {fileID: 0}
+  - line: I knew you were in touch with your sensitive side.
+    animated: 0
+    bg: {fileID: -3246310759543025145, guid: 41b173531f0db5042bf5b878f8bd15a6, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 1
+    voiceLine: {fileID: 8300000, guid: 41bd7cca5db1098408a6608fcd1ed968, type: 3}
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  noBoard: 1

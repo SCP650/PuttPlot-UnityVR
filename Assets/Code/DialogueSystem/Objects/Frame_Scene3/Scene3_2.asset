@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40789df360cf18d4db8041e9ce8cb7aa, type: 3}
+  m_Name: Scene3_2
+  m_EditorClassIdentifier: 
+  visible_choices:
+  - {fileID: 11400000, guid: b4c3d55dc1219ef48888089221233f45, type: 2}
+  - {fileID: 11400000, guid: c79e9c8fb97d4df438003288c6a7cf9c, type: 2}
+  - {fileID: 11400000, guid: 804da1250d9e3f24b812c49f55e43bd1, type: 2}
+  - {fileID: 11400000, guid: 5142b8e62bd8920459d2ccc73529610a, type: 2}
+  lines:
+  - line: Really?
+    animated: 0
+    bg: {fileID: -5595909428504545547, guid: 41b173531f0db5042bf5b878f8bd15a6, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 1
+    voiceLine: {fileID: 8300000, guid: 668e65f90d2c6b04a9d9e8d34031317c, type: 3}
+  - line: "\u79C1\u306F\u305D\u308C\u306F\u79C1\u304C\u79C1\u306E\u6BCD\u56FD\u8A9E\u3067\u8AB0\u304B\u306B\u8A71\u3059\u3053\u3068\u304C\u3067\u304D\u305F\u306E\u3067\u3001\u9577\u3044\u9593\u3055\u308C\u3066\u3044\u308B\u3053\u3068\u3092\u4FE1\u3058\u308B\u3053\u3068\u304C\u3067\u304D\u306A\u3044"
+    animated: 0
+    bg: {fileID: 4985901599990129410, guid: 41b173531f0db5042bf5b878f8bd15a6, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 1
+    voiceLine: {fileID: 8300000, guid: d55718f00e241af4db7fbfabb8ea681e, type: 3}
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 72c833ddd536d8b4583764f63744c5ea, type: 2}
+        m_MethodName: Invoke
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  noBoard: 0

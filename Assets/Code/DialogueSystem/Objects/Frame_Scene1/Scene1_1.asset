@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40789df360cf18d4db8041e9ce8cb7aa, type: 3}
+  m_Name: Scene1_1
+  m_EditorClassIdentifier: 
+  visible_choices:
+  - {fileID: 11400000, guid: e9af32b31fdb28d408beff0328e45cbe, type: 2}
+  - {fileID: 11400000, guid: ef9e778b22f7aa349abd053cb6770566, type: 2}
+  - {fileID: 11400000, guid: 6421a74e7649acf4bbbfb9608c19c20b, type: 2}
+  - {fileID: 11400000, guid: 2cff46bc92da28e49b0185d69aec4e20, type: 2}
+  lines:
+  - line: Welcome to the PuttPalace! Under new management. Definitely not dog management!
+      We love loyal customers, they're our most valued-able, ho ho!
+    animated: 0
+    bg: {fileID: -5739060715783717192, guid: 8df74941b9e4e374dbcfc4eb1aaf9d48, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 2
+    voiceLine: {fileID: 0}
+  - line: Hmm? What's this? I'm picking up a first date smell, err... look, to you.
+      Nervous?
+    animated: 0
+    bg: {fileID: -5739060715783717192, guid: 8df74941b9e4e374dbcfc4eb1aaf9d48, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 2
+    voiceLine: {fileID: 0}
+  - line: I might be hopeless at romance, but goddamnit if I'm not the best at golf.
+    animated: 0
+    bg: {fileID: 21300000, guid: c06f6fa5dda6abf46907fa7be3657791, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 0
+    voiceLine: {fileID: 0}
+  - line: Attaboy! And remember, there's nothing to worry about...
+    animated: 0
+    bg: {fileID: -8919393940278670850, guid: 8df74941b9e4e374dbcfc4eb1aaf9d48, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 2
+    voiceLine: {fileID: 0}
+  - line: as this human place for humans definitely has all the proper human safety
+      permits!
+    animated: 0
+    bg: {fileID: -5739060715783717192, guid: 8df74941b9e4e374dbcfc4eb1aaf9d48, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 2
+    voiceLine: {fileID: 0}
+  - line: Looks like she's coming this way, what's your opening move champ?
+    animated: 0
+    bg: {fileID: -5739060715783717192, guid: 8df74941b9e4e374dbcfc4eb1aaf9d48, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 2
+    voiceLine: {fileID: 0}
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 2d8a1d7c89dbbec43a7bbb718e385eb6, type: 2}
+        m_MethodName: Invoke
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  noBoard: 0

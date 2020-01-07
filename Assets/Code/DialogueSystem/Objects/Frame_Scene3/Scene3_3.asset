@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40789df360cf18d4db8041e9ce8cb7aa, type: 3}
+  m_Name: Scene3_3
+  m_EditorClassIdentifier: 
+  visible_choices:
+  - {fileID: 11400000, guid: b4c3d55dc1219ef48888089221233f45, type: 2}
+  - {fileID: 11400000, guid: c79e9c8fb97d4df438003288c6a7cf9c, type: 2}
+  - {fileID: 11400000, guid: 804da1250d9e3f24b812c49f55e43bd1, type: 2}
+  - {fileID: 11400000, guid: 5142b8e62bd8920459d2ccc73529610a, type: 2}
+  lines:
+  - line: "\u592A\u967D\u3068\u6708\u306E\u8272\u306E\u30B3\u30F3\u30C8\u30E9\u30B9\u30C8\u306F\u5927\u304D\u306A\u9A5A\u304D\u3092\u547C\u3073\u8D77\u3053\u3059"
+    animated: 0
+    bg: {fileID: 2888673585565292974, guid: 41b173531f0db5042bf5b878f8bd15a6, type: 3}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 1
+    voiceLine: {fileID: 8300000, guid: 504ba81e85cbaf54db24a2891b200386, type: 3}
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 72c833ddd536d8b4583764f63744c5ea, type: 2}
+        m_MethodName: Invoke
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  noBoard: 0

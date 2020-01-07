@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cecbd4e96b7f2d74a80948b655baf590, type: 3}
+  m_Name: Five2_2_bet
+  m_EditorClassIdentifier: 
+  destination: {fileID: 11400000, guid: a568cd82f3d35864c95c9107d64d89bc, type: 2}
+  text: 
+  line:
+    line: 
+    animated: 0
+    bg: {fileID: 0}
+    animationTrigger: 
+    lowestScoreAllowed: 0
+    highestScoreAllowed: 0
+    speaker: 0
+    voiceLine: {fileID: 0}
+  three_words: Perfect shot
+  deltaScore: 1
