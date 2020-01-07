@@ -11,7 +11,7 @@ The game leverages Unity's UnityEvents and ScriptableObjects for more efficient 
 *Date: Awwww, look how cute he is. How can you say no?* \
 ***[Say No]*** ***[Say Yes]***
 
-If you would like to play the game in text-adventure format, please download the "Story Branching Narrative Textadventure" folder. The files can be played by clicking on them. If you would instead prefer to analyse the scenes and all their possible narratives, upload the .html files to https://twinery.org/.  
+If you would like to play the game in text-adventure format, please download the "Story Branching Narrative Textadventure" folder. The files can be played by clicking on them. If you would instead prefer to analyse the scenes and all possible paths, upload the .html files to https://twinery.org/.  
 
 
 
