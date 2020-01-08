@@ -2,7 +2,7 @@
 In the game, choices are made in VR by using your putt-putt club to sink a ball into one of several holes present on giant skeeball-esque boards. The game plays with the concept of diageticism, i.e. what is of the story world and what isn't. It does this by mapping the flumoxy nature of first date conversations onto the uncertain but skill-based outcome of golf. In addition, the 2d narrative elements sometimes affect the player's 3d environment. 
 The game leverages Unity's UnityEvents and ScriptableObjects for more efficient + safer code!
 
-**Gameplay link: https://www.youtube.com/watch?v=nhujQxwyqC4**
+**Gameplay link: https://www.youtube.com/watch?v=nhujQxwyqC4** \
 **Built Game Download link: https://drive.google.com/file/d/1CrcrlHudLfab7iW3boTh-dmyzrY0Awqy/view?usp=sharing**
 
 # Story
