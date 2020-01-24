@@ -1,3 +1,6 @@
+# Play Instructions:
+Please download the folder that contains these files. To start a scene, you simply have to click on it. Keep track of your score if you want to see how your date went. Enjoy!
+
 # Intro:
 Welcome to the PuttPlot text adventure! The following files were initially written as a way to manage the game's script, but can also be played through (albeit more limitedly) as its own experience. 
 
